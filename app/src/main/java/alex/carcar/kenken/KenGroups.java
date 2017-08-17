@@ -1,10 +1,14 @@
 package alex.carcar.kenken;
 
-public class KenGroups {
+class KenGroups {
 	private static final int BOARD_SIZE = 6;
 	private int[][] board = new int [BOARD_SIZE][BOARD_SIZE];
 
-	public void KenGroups() {
+	KenGroups() {
+		this.clear();
+	}
+
+	public void clear() {
 		for (int i = 0; i < BOARD_SIZE; i++) {
 			for (int j = 0; j < BOARD_SIZE; j++) {
 				board[i][j] = 0;
@@ -42,7 +46,17 @@ public class KenGroups {
 	}
 			
 	public boolean isEmpty(KenSquare square) {
-		return isEmpty(square.x, square.y)	;
+		return isEmpty(square.x, square.y);
+	}
+
+	public boolean set(int i, int j, int group) {
+		if (i < 0 || j < 0 || i >= BOARD_SIZE || j >= BOARD_SIZE) return false;
+		board[i][j] = group;
+		return true;
+	}
+
+	public boolean set(KenSquare square, int group) {
+		return set(square.x, square.y, group);
 	}
 
 	public void print() {
