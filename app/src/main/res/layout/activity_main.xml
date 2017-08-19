@@ -17,415 +17,1249 @@
         <TableRow>
 
             <Button
+                android:id="@+id/header00"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader00"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header01"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader01"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header02"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader02"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header03"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader03"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header04"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader04"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header05"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
                 android:id="@+id/cell00"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell00"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell01"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell01"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell02"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell02"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell03"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell03"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell04"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell04"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell05"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/header10"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader10"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header11"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader11"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header12"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader12"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header13"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader13"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header14"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader14"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header15"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
         </TableRow>
 
         <TableRow>
 
             <Button
                 android:id="@+id/cell10"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell10"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell11"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell11"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell12"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell12"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell13"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell13"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell14"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell14"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell15"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/header20"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader20"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header21"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader21"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header22"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader22"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header23"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader23"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header24"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader24"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header25"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
         </TableRow>
 
         <TableRow>
 
             <Button
                 android:id="@+id/cell20"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell20"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell21"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell21"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell22"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell22"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell23"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell23"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell24"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell24"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell25"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/header30"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader30"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header31"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader31"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header32"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader32"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header33"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader33"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header34"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader34"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header35"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
         </TableRow>
 
         <TableRow>
 
             <Button
                 android:id="@+id/cell30"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell30"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell31"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell31"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell32"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell32"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell33"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell33"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell34"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell34"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell35"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/header40"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader40"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header41"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader41"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header42"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader42"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header43"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader43"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header44"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader44"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header45"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
         </TableRow>
 
         <TableRow>
 
             <Button
                 android:id="@+id/cell40"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell40"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell41"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell41"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell42"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell42"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell43"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell43"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell44"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell44"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell45"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/header50"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader50"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header51"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader51"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header52"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader52"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header53"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader53"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header54"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightHeader54"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/header55"
+                android:layout_width="@dimens/header_width"
+                android:layout_height="@dimens/header_height"
+                android:background="@color/squareColor"
+                android:text="@string/blank_header"
+                android:textSize="@dimens/header_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
         </TableRow>
 
         <TableRow>
 
             <Button
                 android:id="@+id/cell50"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell50"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell51"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell51"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell52"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color1"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell52"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell53"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell53"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell54"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <Button
+                android:id="@+id/rightCell55"
+                android:layout_width="@dimens/divider_size"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/minorDivider"
+                style="?android:attr/borderlessButtonStyle" />
 
             <Button
                 android:id="@+id/cell55"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:background="@drawable/color2"
+                android:layout_width="@dimens/cell_width"
+                android:layout_height="@dimens/cell_height"
+                android:background="@color/squareColor"
 
                 android:onClick="onCellTouch"
                 android:text="@string/blank_cell"
-                android:textSize="24sp"
-                android:textStyle="normal" />
+                android:textSize="@dimens/cell_textSize"
+                android:textStyle="normal"
+                style="?android:attr/borderlessButtonStyle" />
         </TableRow>
     </TableLayout>
 
@@ -447,7 +1281,8 @@
             android:onClick="onChoice"
             android:text="@string/number1"
             android:textSize="24sp"
-            android:textStyle="normal|bold" />
+            android:textStyle="normal|bold"
+            style="?android:attr/borderlessButtonStyle" />
 
         <Button
             android:id="@+id/choose2"
@@ -459,7 +1294,8 @@
             android:onClick="onChoice"
             android:text="@string/number2"
             android:textSize="24sp"
-            android:textStyle="normal|bold" />
+            android:textStyle="normal|bold"
+            style="?android:attr/borderlessButtonStyle" />
 
         <Button
             android:id="@+id/choose3"
@@ -471,7 +1307,8 @@
             android:onClick="onChoice"
             android:text="@string/number3"
             android:textSize="24sp"
-            android:textStyle="normal|bold" />
+            android:textStyle="normal|bold"
+            style="?android:attr/borderlessButtonStyle" />
 
         <Button
             android:id="@+id/choose4"
@@ -483,7 +1320,8 @@
             android:onClick="onChoice"
             android:text="@string/number4"
             android:textSize="24sp"
-            android:textStyle="normal|bold" />
+            android:textStyle="normal|bold"
+            style="?android:attr/borderlessButtonStyle" />
 
         <Button
             android:id="@+id/choose5"
@@ -495,7 +1333,8 @@
             android:onClick="onChoice"
             android:text="@string/number5"
             android:textSize="24sp"
-            android:textStyle="normal|bold" />
+            android:textStyle="normal|bold"
+            style="?android:attr/borderlessButtonStyle" />
 
         <Button
             android:id="@+id/choose6"
@@ -507,7 +1346,8 @@
             android:onClick="onChoice"
             android:text="@string/number6"
             android:textSize="24sp"
-            android:textStyle="normal|bold" />
+            android:textStyle="normal|bold"
+            style="?android:attr/borderlessButtonStyle" />
 
         <Button
             android:id="@+id/choose_delete"
@@ -519,7 +1359,8 @@
             android:onClick="onChoice"
             android:text="@string/delete"
             android:textSize="24sp"
-            android:textStyle="normal|bold" />
+            android:textStyle="normal|bold"
+            style="?android:attr/borderlessButtonStyle" />
     </LinearLayout>
 
     <LinearLayout
@@ -540,7 +1381,8 @@
             android:text="@string/congratulations"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="21sp"
-            android:textStyle="normal|bold" />
+            android:textStyle="normal|bold"
+            style="?android:attr/borderlessButtonStyle" />
 
         <Button
             android:layout_width="wrap_content"
@@ -569,7 +1411,8 @@
             android:text="@string/puzzle_incomplete"
             android:textColor="@color/error_color"
             android:textSize="21sp"
-            android:textStyle="normal|bold" />
+            android:textStyle="normal|bold"
+            style="?android:attr/borderlessButtonStyle" />
 
     </LinearLayout>
 
