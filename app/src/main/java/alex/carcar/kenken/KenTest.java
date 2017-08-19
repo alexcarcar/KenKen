@@ -2,11 +2,12 @@ package alex.carcar.kenken;
 
 public class KenTest {
 	public static void main(String[] args) {
-            KenGroups kg = new KenGroups();
-            KenSquare ks = kg.pick();
-            kg.set(ks, 1);
-            ks = kg.pick();
-            kg.set(ks, 2);
-            kg.print();
+        int group = 1;
+        KenGroups kg = new KenGroups();
+        do {
+            KenHood kh = new KenHood(kg, kg.pick());
+            if (kh.set(group)) group++;
+        } while (kg.emptyCount() > 0);
+        kg.print();
     }
 }

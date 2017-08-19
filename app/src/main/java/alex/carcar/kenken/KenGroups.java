@@ -51,6 +51,7 @@ class KenGroups {
 
 	public boolean set(int i, int j, int group) {
 		if (i < 0 || j < 0 || i >= BOARD_SIZE || j >= BOARD_SIZE) return false;
+		if (!isEmpty(i, j)) return false;
 		board[i][j] = group;
 		return true;
 	}

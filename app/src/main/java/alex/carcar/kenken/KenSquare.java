@@ -8,4 +8,5 @@ public class KenSquare {
 	public void print() {
 		System.out.print("(" + x + ", " + y + ") group = " + group + "\n");
 	}
+
 }
