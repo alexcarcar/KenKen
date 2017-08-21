@@ -24,8 +24,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader00"
@@ -39,8 +40,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader01"
@@ -54,8 +56,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader02"
@@ -69,8 +72,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader03"
@@ -84,8 +88,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader04"
@@ -99,8 +104,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow>
@@ -290,8 +296,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader10"
@@ -305,8 +312,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader11"
@@ -320,8 +328,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader12"
@@ -335,8 +344,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader13"
@@ -350,8 +360,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader14"
@@ -365,8 +376,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow>
@@ -556,8 +568,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader20"
@@ -571,8 +584,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader21"
@@ -586,8 +600,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader22"
@@ -601,8 +616,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader23"
@@ -616,8 +632,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader24"
@@ -631,8 +648,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow>
@@ -822,8 +840,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader30"
@@ -837,8 +856,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader31"
@@ -852,8 +872,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader32"
@@ -867,8 +888,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader33"
@@ -882,8 +904,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader34"
@@ -897,8 +920,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow>
@@ -1088,8 +1112,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader40"
@@ -1103,8 +1128,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader41"
@@ -1118,8 +1144,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader42"
@@ -1133,8 +1160,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader43"
@@ -1148,8 +1176,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader44"
@@ -1163,8 +1192,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow>
@@ -1354,8 +1384,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader50"
@@ -1369,8 +1400,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader51"
@@ -1384,8 +1416,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader52"
@@ -1399,8 +1432,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader53"
@@ -1414,8 +1448,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <View
                 android:id="@+id/rightHeader54"
@@ -1429,8 +1464,9 @@
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
                 android:text="@string/blank_header"
+                android:textColor="@color/mainDivider"
                 android:textSize="@dimen/header_textSize"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow>
