@@ -12,13 +12,14 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        android:layout_marginTop="45dp">
+        android:layout_marginTop="45dp"
+        android:background="@color/mainDivider"
+        android:padding="@dimen/divider_size">
 
         <TableRow>
 
-            <Button
+            <TextView
                 android:id="@+id/header00"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -26,16 +27,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader00"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header01"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -43,16 +42,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader01"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header02"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -60,16 +57,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader02"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header03"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -77,16 +72,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader03"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header04"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -94,16 +87,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader04"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header05"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -126,9 +117,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell00"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -145,9 +135,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell01"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -164,9 +153,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell02"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -183,9 +171,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell03"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -202,9 +189,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell04"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -224,9 +210,82 @@
 
         <TableRow>
 
-            <Button
+            <View
+                android:id="@+id/footer00"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter00"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer01"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter01"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer02"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter02"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer03"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter03"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer04"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter04"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer05"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
                 android:id="@+id/header10"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -234,16 +293,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader10"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header11"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -251,16 +308,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader11"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header12"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -268,16 +323,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader12"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header13"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -285,16 +338,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader13"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header14"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -302,16 +353,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader14"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header15"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -334,9 +383,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell10"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -353,9 +401,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell11"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -372,9 +419,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell12"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -391,9 +437,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell13"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -410,9 +455,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell14"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -432,9 +476,82 @@
 
         <TableRow>
 
-            <Button
+            <View
+                android:id="@+id/footer10"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter10"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer11"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter11"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer12"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter12"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer13"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter13"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer14"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter14"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer15"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
                 android:id="@+id/header20"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -442,16 +559,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader20"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header21"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -459,16 +574,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader21"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header22"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -476,16 +589,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader22"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header23"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -493,16 +604,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader23"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header24"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -510,16 +619,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader24"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header25"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -542,9 +649,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell20"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -561,9 +667,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell21"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -580,9 +685,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell22"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -599,9 +703,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell23"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -618,9 +721,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell24"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -640,9 +742,82 @@
 
         <TableRow>
 
-            <Button
+            <View
+                android:id="@+id/footer20"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter20"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer21"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter21"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer22"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter22"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer23"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter23"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer24"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter24"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer25"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
                 android:id="@+id/header30"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -650,16 +825,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader30"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header31"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -667,16 +840,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader31"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header32"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -684,16 +855,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader32"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header33"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -701,16 +870,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader33"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header34"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -718,16 +885,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader34"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header35"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -750,9 +915,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell30"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -769,9 +933,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell31"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -788,9 +951,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell32"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -807,9 +969,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell33"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -826,9 +987,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell34"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -848,9 +1008,82 @@
 
         <TableRow>
 
-            <Button
+            <View
+                android:id="@+id/footer30"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter30"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer31"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter31"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer32"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter32"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer33"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter33"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer34"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter34"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer35"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
                 android:id="@+id/header40"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -858,16 +1091,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader40"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header41"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -875,16 +1106,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader41"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header42"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -892,16 +1121,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader42"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header43"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -909,16 +1136,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader43"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header44"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -926,16 +1151,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader44"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header45"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -958,9 +1181,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell40"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -977,9 +1199,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell41"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -996,9 +1217,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell42"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -1015,9 +1235,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell43"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -1034,9 +1253,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell44"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -1056,9 +1274,82 @@
 
         <TableRow>
 
-            <Button
+            <View
+                android:id="@+id/footer40"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter40"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer41"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter41"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer42"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter42"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer43"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter43"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer44"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+
+            <View
+                android:id="@+id/rightFooter44"
+                android:layout_width="@dimen/divider_size"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+            <View
+                android:id="@+id/footer45"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="@dimen/divider_size"
+                android:background="@color/minorDivider" />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
                 android:id="@+id/header50"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -1066,16 +1357,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader50"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header51"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -1083,16 +1372,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader51"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header52"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -1100,16 +1387,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader52"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header53"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -1117,16 +1402,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader53"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header54"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -1134,16 +1417,14 @@
                 android:textSize="@dimen/header_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightHeader54"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/minorDivider" />
 
-            <Button
+            <TextView
                 android:id="@+id/header55"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/header_height"
                 android:background="@color/squareColor"
@@ -1166,9 +1447,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell50"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -1185,9 +1465,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell51"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -1204,9 +1483,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell52"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -1223,9 +1501,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell53"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
@@ -1242,9 +1519,8 @@
                 android:textSize="@dimen/cell_textSize"
                 android:textStyle="normal" />
 
-            <Button
+            <View
                 android:id="@+id/rightCell55"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
