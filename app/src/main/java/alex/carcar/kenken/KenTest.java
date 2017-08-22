@@ -1,13 +1,13 @@
 package alex.carcar.kenken;
 
+import java.util.Arrays;
+
 public class KenTest {
 	public static void main(String[] args) {
-        int group = 1;
         KenGroups kg = new KenGroups();
-        do {
-            KenHood kh = new KenHood(kg, kg.pick());
-            if (kh.set(group)) group++;
-        } while (kg.emptyCount() > 0);
         kg.print();
+
+        int[][] board = kg.getBoard();
+        System.out.println(Arrays.deepToString(board));
     }
 }

@@ -6,6 +6,15 @@ class KenGroups {
 
 	KenGroups() {
 		this.clear();
+		int group = 1;
+		do {
+			KenHood kh = new KenHood(this, this.pick());
+			if (kh.set(group)) group++;
+		} while (this.emptyCount() > 0);
+	}
+
+	public int[][] getBoard() {
+		return board;
 	}
 
 	public void clear() {
