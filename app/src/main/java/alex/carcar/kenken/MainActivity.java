@@ -338,7 +338,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         selected = -1;
         Sudoku.create();
-        Sudoku.hide(0.55);
+        //Sudoku.hide(0.55);
         displayBoard(Sudoku.board, Sudoku.hide);
         successLayout = (LinearLayout) findViewById(R.id.successLayout);
         numberPad = (LinearLayout) findViewById(R.id.numberPad);
