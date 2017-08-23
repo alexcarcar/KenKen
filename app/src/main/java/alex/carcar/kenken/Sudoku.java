@@ -1,11 +1,15 @@
 package alex.carcar.kenken;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+
 import alex.carcar.kenken.create.KenGroups;
 
 class Sudoku {
     static int board[][];
 
     static int ken[][];
+    static String kenHeaders[][];
     static boolean hide[][];
     private static int BOARD_SIZE;
     private static int GROUP_WIDTH;
@@ -167,7 +171,63 @@ class Sudoku {
         } while (fillBoard() == -1);
         KenGroups kg = new KenGroups();
         ken = kg.getBoard();
+        HashSet<Integer> marker = new HashSet<>();
+        if (kenHeaders == null) {
+            kenHeaders = new String[6][6];
+        }
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 6; j++) {
+                Integer key = ken[i][j];
+                if (marker.contains(key)) {
+                    kenHeaders[i][j] = "";
+                } else {
+                    kenHeaders[i][j] = createHeader(key, ken, board);
+                    marker.add(key);
+                }
+            }
+        }
         printBoard();
+    }
+
+    private static String createHeader(Integer key, int[][] ken, int[][] board) {
+        ArrayList<Integer> listOfNumbers = new ArrayList<>();
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 6; j++) {
+                if (ken[i][j] == key) {
+                    listOfNumbers.add(board[i][j]);
+                }
+            }
+        }
+
+        if (listOfNumbers.size() == 0) return "";
+        if (listOfNumbers.size() == 1) return " " + listOfNumbers.get(0).toString();
+        if (listOfNumbers.size() == 2) {
+            int possibilities = 3; // "+, -, x" are possible
+            int a = listOfNumbers.get(0);
+            int b = listOfNumbers.get(1);
+            if (a % b == 0 || b % a == 0) possibilities++; // Divide (/) is also possible
+            switch ((int) Math.floor(Math.random() * possibilities)) {
+                case 0:
+                    return " x" + (a * b);
+                case 1:
+                    return " +" + (a + b);
+                case 2:
+                    return " -" + Math.abs(a - b);
+                case 3:
+                    return " \u00F7" + (a < b ? (b / a) : (a / b));
+            }
+        }
+
+        boolean isSum = Math.floor(Math.random() * 2) == 0; // for larger sets, only sum and product possible
+        int answer = isSum ? 0 : 1;
+        for (int i = 0; i < listOfNumbers.size(); i++) {
+            if (isSum) {
+                answer += listOfNumbers.get(i);
+            } else {
+                answer *= listOfNumbers.get(i);
+            }
+        }
+        return " " + (isSum ? "+" : "x") + answer;
     }
 
     static void put(int x, int y, int value) {

@@ -2,7 +2,7 @@
 	<!-- cell dimensions -->
     <dimen name="cell_width">45dp</dimen>
     <dimen name="cell_height">30dp</dimen>
-    <dimen name="cell_textSize">20sp</dimen>
+    <dimen name="cell_textSize">22sp</dimen>
     <dimen name="header_height">15dp</dimen>
     <dimen name="header_textSize">12sp</dimen>
     <dimen name="divider_size">3dp</dimen>

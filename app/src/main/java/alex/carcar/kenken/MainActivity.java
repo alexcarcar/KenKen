@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,6 +31,15 @@ public class MainActivity extends AppCompatActivity {
             {R.id.rightHeader30, R.id.rightHeader31, R.id.rightHeader32, R.id.rightHeader33, R.id.rightHeader34},
             {R.id.rightHeader40, R.id.rightHeader41, R.id.rightHeader42, R.id.rightHeader43, R.id.rightHeader44},
             {R.id.rightHeader50, R.id.rightHeader51, R.id.rightHeader52, R.id.rightHeader53, R.id.rightHeader54}
+    };
+
+    private static final int[][] headers = new int[][]{
+            {R.id.header00, R.id.header01, R.id.header02, R.id.header03, R.id.header04, R.id.header05},
+            {R.id.header10, R.id.header11, R.id.header12, R.id.header13, R.id.header14, R.id.header15},
+            {R.id.header20, R.id.header21, R.id.header22, R.id.header23, R.id.header24, R.id.header25},
+            {R.id.header30, R.id.header31, R.id.header32, R.id.header33, R.id.header34, R.id.header35},
+            {R.id.header40, R.id.header41, R.id.header42, R.id.header43, R.id.header44, R.id.header45},
+            {R.id.header50, R.id.header51, R.id.header52, R.id.header53, R.id.header54, R.id.header55}
     };
 
     private static final int[][] footers = new int[][]{
@@ -375,6 +385,7 @@ public class MainActivity extends AppCompatActivity {
         Sudoku.hide(2);
         displayBoard(Sudoku.board, Sudoku.hide);
         displayKenBoarders(Sudoku.ken);
+        displayKenHeaders(Sudoku.kenHeaders);
         successLayout = (LinearLayout) findViewById(R.id.successLayout);
         numberPad = (LinearLayout) findViewById(R.id.numberPad);
         incompleteLayout = (LinearLayout) findViewById(R.id.puzzleIncomplete);
@@ -382,6 +393,15 @@ public class MainActivity extends AppCompatActivity {
         successLayout.setVisibility(View.INVISIBLE);
         numberPad.setVisibility(View.VISIBLE);
         incompleteLayout.setVisibility(View.INVISIBLE);
+    }
+
+    private void displayKenHeaders(String[][] kenHeaders) {
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 6; j++) {
+                TextView headerLabel = (TextView) findViewById(headers[i][j]);
+                headerLabel.setText(kenHeaders[i][j]);
+            }
+        }
     }
 
     private void displayKenBoarders(int[][] ken) {
