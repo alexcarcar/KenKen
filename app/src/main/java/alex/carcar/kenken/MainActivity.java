@@ -14,6 +14,14 @@ import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final int[][] rightCells = new int[][]{
+            {R.id.rightCell00, R.id.rightCell01, R.id.rightCell02, R.id.rightCell03, R.id.rightCell04},
+            {R.id.rightCell10, R.id.rightCell11, R.id.rightCell12, R.id.rightCell13, R.id.rightCell14},
+            {R.id.rightCell20, R.id.rightCell21, R.id.rightCell22, R.id.rightCell23, R.id.rightCell24},
+            {R.id.rightCell30, R.id.rightCell31, R.id.rightCell32, R.id.rightCell33, R.id.rightCell34},
+            {R.id.rightCell40, R.id.rightCell41, R.id.rightCell42, R.id.rightCell43, R.id.rightCell44},
+            {R.id.rightCell50, R.id.rightCell51, R.id.rightCell52, R.id.rightCell53, R.id.rightCell54},
+    };
     private static int selected = -1;
     private static int cellX = -1;
     private static int cellY = -1;
@@ -338,8 +346,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         selected = -1;
         Sudoku.create();
-        Sudoku.hide(0.55);
+        Sudoku.hide(2);
         displayBoard(Sudoku.board, Sudoku.hide);
+        displayKenBoarders(Sudoku.ken);
         successLayout = (LinearLayout) findViewById(R.id.successLayout);
         numberPad = (LinearLayout) findViewById(R.id.numberPad);
         incompleteLayout = (LinearLayout) findViewById(R.id.puzzleIncomplete);
@@ -347,6 +356,10 @@ public class MainActivity extends AppCompatActivity {
         successLayout.setVisibility(View.INVISIBLE);
         numberPad.setVisibility(View.VISIBLE);
         incompleteLayout.setVisibility(View.INVISIBLE);
+    }
+
+    private void displayKenBoarders(int[][] ken) {
+
     }
 
     private void displayBoard(int[][] board, boolean[][] hide) {
@@ -447,6 +460,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /*
     public void onSwitchSymbolsClick(MenuItem item) {
         useLetters = !useLetters; // toggle between numbers and letters
         if (useLetters) {
@@ -455,5 +469,5 @@ public class MainActivity extends AppCompatActivity {
             item.setIcon(R.drawable.ic_action_letters);
         }
         createNewGame();
-    }
+    }*/
 }

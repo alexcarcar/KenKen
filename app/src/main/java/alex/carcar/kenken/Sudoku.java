@@ -1,7 +1,11 @@
 package alex.carcar.kenken;
 
+import alex.carcar.kenken.create.KenGroups;
+
 class Sudoku {
     static int board[][];
+
+    static int ken[][];
     static boolean hide[][];
     private static int BOARD_SIZE;
     private static int GROUP_WIDTH;
@@ -161,6 +165,8 @@ class Sudoku {
         do {
             clearBoard();
         } while (fillBoard() == -1);
+        KenGroups kg = new KenGroups();
+        ken = kg.getBoard();
         printBoard();
     }
 

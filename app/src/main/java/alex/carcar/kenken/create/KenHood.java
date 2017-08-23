@@ -1,17 +1,15 @@
-package alex.carcar.kenken;
+package alex.carcar.kenken.create;
 
-public class KenHood {
-    public KenGroups groups;
-    public KenSquare square;
+class KenHood {
+    private KenGroups groups;
+    private KenSquare square;
 
     KenHood(KenGroups kg, KenSquare ks) {
         this.groups = kg;
         this.square = ks;
-        int x = ks.x;
-        int y = ks.y;
     }
 
-    public boolean set(int group) {
+    boolean set(int group) {
         int x = square.x;
         int y = square.y;
         int ox = x;

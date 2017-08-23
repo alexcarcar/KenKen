@@ -1556,7 +1556,7 @@
                 android:textStyle="normal" />
 
             <View
-                android:id="@+id/rightCell55"
+                android:id="@+id/rightCell54"
                 android:layout_width="@dimen/divider_size"
                 android:layout_height="@dimen/cell_height"
                 android:background="@color/minorDivider" />
