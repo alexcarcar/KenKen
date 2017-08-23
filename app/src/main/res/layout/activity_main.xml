@@ -1373,7 +1373,7 @@
                 android:id="@+id/footer45"
                 android:layout_width="@dimen/cell_width"
                 android:layout_height="@dimen/divider_size"
-                android:background="@color/minorDivider" />
+                android:background="@color/colorAccent" />
 
         </TableRow>
         <TableRow>

@@ -20,8 +20,34 @@ public class MainActivity extends AppCompatActivity {
             {R.id.rightCell20, R.id.rightCell21, R.id.rightCell22, R.id.rightCell23, R.id.rightCell24},
             {R.id.rightCell30, R.id.rightCell31, R.id.rightCell32, R.id.rightCell33, R.id.rightCell34},
             {R.id.rightCell40, R.id.rightCell41, R.id.rightCell42, R.id.rightCell43, R.id.rightCell44},
-            {R.id.rightCell50, R.id.rightCell51, R.id.rightCell52, R.id.rightCell53, R.id.rightCell54},
+            {R.id.rightCell50, R.id.rightCell51, R.id.rightCell52, R.id.rightCell53, R.id.rightCell54}
     };
+
+    private static final int[][] rightHeaders = new int[][]{
+            {R.id.rightHeader00, R.id.rightHeader01, R.id.rightHeader02, R.id.rightHeader03, R.id.rightHeader04},
+            {R.id.rightHeader10, R.id.rightHeader11, R.id.rightHeader12, R.id.rightHeader13, R.id.rightHeader14},
+            {R.id.rightHeader20, R.id.rightHeader21, R.id.rightHeader22, R.id.rightHeader23, R.id.rightHeader24},
+            {R.id.rightHeader30, R.id.rightHeader31, R.id.rightHeader32, R.id.rightHeader33, R.id.rightHeader34},
+            {R.id.rightHeader40, R.id.rightHeader41, R.id.rightHeader42, R.id.rightHeader43, R.id.rightHeader44},
+            {R.id.rightHeader50, R.id.rightHeader51, R.id.rightHeader52, R.id.rightHeader53, R.id.rightHeader54}
+    };
+
+    private static final int[][] footers = new int[][]{
+            {R.id.footer00, R.id.footer01, R.id.footer02, R.id.footer03, R.id.footer04, R.id.footer05},
+            {R.id.footer10, R.id.footer11, R.id.footer12, R.id.footer13, R.id.footer14, R.id.footer15},
+            {R.id.footer20, R.id.footer21, R.id.footer22, R.id.footer23, R.id.footer24, R.id.footer25},
+            {R.id.footer30, R.id.footer31, R.id.footer32, R.id.footer33, R.id.footer34, R.id.footer35},
+            {R.id.footer40, R.id.footer41, R.id.footer42, R.id.footer43, R.id.footer44, R.id.footer45}
+    };
+
+    private static final int[][] rightFooters = new int[][]{
+            {R.id.rightFooter00, R.id.rightFooter01, R.id.rightFooter02, R.id.rightFooter03, R.id.rightFooter04},
+            {R.id.rightFooter10, R.id.rightFooter11, R.id.rightFooter12, R.id.rightFooter13, R.id.rightFooter14},
+            {R.id.rightFooter20, R.id.rightFooter21, R.id.rightFooter22, R.id.rightFooter23, R.id.rightFooter24},
+            {R.id.rightFooter30, R.id.rightFooter31, R.id.rightFooter32, R.id.rightFooter33, R.id.rightFooter34},
+            {R.id.rightFooter40, R.id.rightFooter41, R.id.rightFooter42, R.id.rightFooter43, R.id.rightFooter44}
+    };
+
     private static int selected = -1;
     private static int cellX = -1;
     private static int cellY = -1;
@@ -359,7 +385,30 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void displayKenBoarders(int[][] ken) {
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 5; j++) {
+                boolean isMinorColor = ken[i][j] == ken[i][j + 1];
+                colorCell(findViewById(rightHeaders[i][j]), isMinorColor);
+                colorCell(findViewById(rightCells[i][j]), isMinorColor);
+            }
+        }
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 6; j++) {
+                boolean isMinorColor = ken[i + 1][j] == ken[i][j];
+                colorCell(findViewById(footers[i][j]), isMinorColor);
+            }
+        }
 
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                boolean isMinorColor = ken[i][j] == ken[i][j + 1] && ken[i][j] == ken[i + 1][j] && ken[i][j] == ken[i + 1][j + 1];
+                colorCell(findViewById(rightFooters[i][j]), isMinorColor);
+            }
+        }
+    }
+
+    private void colorCell(View viewById, boolean isMinorColor) {
+        viewById.setBackgroundColor(ContextCompat.getColor(this, isMinorColor ? R.color.minorDivider : R.color.mainDivider));
     }
 
     private void displayBoard(int[][] board, boolean[][] hide) {
