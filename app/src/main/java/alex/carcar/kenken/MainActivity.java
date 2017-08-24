@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
     private static int selected = -1;
     private static int cellX = -1;
     private static int cellY = -1;
-    private static boolean useLetters = false;
+    private static boolean usePen = true;
     private MediaPlayer FXPlayer;
     private LinearLayout successLayout;
     private LinearLayout numberPad;
@@ -106,52 +106,28 @@ public class MainActivity extends AppCompatActivity {
 
         switch (selected) {
             case 1:
-                if (useLetters) {
-                    currentCell.setText(R.string.number1l);
-                } else {
-                    currentCell.setText(R.string.number1);
-                }
+                currentCell.setText(R.string.number1);
                 break;
             case 2:
-                if (useLetters) {
-                    currentCell.setText(R.string.number2l);
-                } else {
-                    currentCell.setText(R.string.number2);
-                }
+                currentCell.setText(R.string.number2);
                 break;
             case 3:
-                if (useLetters) {
-                    currentCell.setText(R.string.number3l);
-                } else {
-                    currentCell.setText(R.string.number3);
-                }
+                currentCell.setText(R.string.number3);
                 break;
             case 4:
-                if (useLetters) {
-                    currentCell.setText(R.string.number4l);
-                } else {
-                    currentCell.setText(R.string.number4);
-                }
+                currentCell.setText(R.string.number4);
                 break;
             case 5:
-                if (useLetters) {
-                    currentCell.setText(R.string.number5l);
-                } else {
-                    currentCell.setText(R.string.number5);
-                }
+                currentCell.setText(R.string.number5);
                 break;
             case 6:
-                if (useLetters) {
-                    currentCell.setText(R.string.number6l);
-                } else {
-                    currentCell.setText(R.string.number6);
-                }
+                currentCell.setText(R.string.number6);
                 break;
             case 0:
                 currentCell.setText(R.string.blank_cell);
                 break;
         }
-        currentCell.setTextColor(ContextCompat.getColor(this, R.color.text_color));
+        currentCell.setTextColor(ContextCompat.getColor(this, usePen ? R.color.text_color : R.color.minorDivider));
         checkBoard(cellX, cellY, selected);
     }
 
@@ -483,60 +459,35 @@ public class MainActivity extends AppCompatActivity {
         } else {
             switch (x) {
                 case 1:
-                    if (useLetters) {
-                        currentCell.setText(R.string.number1l);
-                    } else {
-                        currentCell.setText(R.string.number1);
-                    }
+                    currentCell.setText(R.string.number1);
                     break;
                 case 2:
-                    if (useLetters) {
-                        currentCell.setText(R.string.number2l);
-                    } else {
-                        currentCell.setText(R.string.number2);
-                    }
+                    currentCell.setText(R.string.number2);
                     break;
                 case 3:
-                    if (useLetters) {
-                        currentCell.setText(R.string.number3l);
-                    } else {
-                        currentCell.setText(R.string.number3);
-                    }
+                    currentCell.setText(R.string.number3);
                     break;
                 case 4:
-                    if (useLetters) {
-                        currentCell.setText(R.string.number4l);
-                    } else {
-                        currentCell.setText(R.string.number4);
-                    }
+                    currentCell.setText(R.string.number4);
                     break;
                 case 5:
-                    if (useLetters) {
-                        currentCell.setText(R.string.number5l);
-                    } else {
-                        currentCell.setText(R.string.number5);
-                    }
+                    currentCell.setText(R.string.number5);
                     break;
                 case 6:
-                    if (useLetters) {
-                        currentCell.setText(R.string.number6l);
-                    } else {
-                        currentCell.setText(R.string.number6);
-                    }
+                    currentCell.setText(R.string.number6);
                     break;
             }
             currentCell.setTypeface(null, Typeface.BOLD);
         }
     }
 
-    /*
-    public void onSwitchSymbolsClick(MenuItem item) {
-        useLetters = !useLetters; // toggle between numbers and letters
-        if (useLetters) {
-            item.setIcon(R.drawable.ic_action_numbers);
+    public void onSwitchPensClick(MenuItem item) {
+        usePen = !usePen; // toggle between numbers and letters
+        if (usePen) {
+            item.setIcon(R.mipmap.ic_action_pen);
         } else {
-            item.setIcon(R.drawable.ic_action_letters);
+            item.setIcon(R.mipmap.ic_action_pencil);
         }
-        createNewGame();
-    }*/
+        //createNewGame();
+    }
 }

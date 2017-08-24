@@ -27,5 +27,5 @@
     <string name="puzzle_incomplete">Your puzzle has errors!</string>
     <string name="clear_board">Replay</string>
     <string name="go_back">Back</string>
-    <string name="switch_symbols">Switch Symbols</string>
+    <string name="switch_pens">Switch Pens</string>
 </resources>
