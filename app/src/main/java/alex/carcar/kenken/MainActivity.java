@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
                 currentCell.setText(R.string.blank_cell);
                 break;
         }
-        currentCell.setTextColor(ContextCompat.getColor(this, usePen ? R.color.text_color : R.color.minorDivider));
+        currentCell.setTextColor(ContextCompat.getColor(this, usePen ? R.color.text_color : R.color.pencil_color));
         checkBoard(cellX, cellY, selected);
     }
 
